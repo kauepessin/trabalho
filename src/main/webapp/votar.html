@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">  
+  <head>
+
+    <link rel="stylesheet" href="css/votar.css">
+    <title>Área da Votação</title>
+    <meta charset="utf-8">
+
+  </head>
+
+  <body aling="center">
+
+    <center> 
+        <h1 class="titulo">Área de Votação</h1>
+<div> 
+    <form action="#" class="form-contact" method="post" tabindex="1">  
+
+       <input type="text" id="text1" class="form-contact-input" name="nome" placeholder="Digite o número do Candidato" required />  
+
+       <input type="text" id="text2" class="form-contact-input" name="nome" placeholder="Partido do Candidato" required />
+
+       <div id="view"></div>
+       
+       <script type="text/javascript">
+           var $text = document.getElementById('text1'),
+               $view = document.getElementById('view');
+
+               $text.addEventListener('blur', function(){
+                var img = document.createElement('img');
+                img.src = this.value + '.jpg';
+
+                $view.innerHTML = '';
+                $view.appendChild(img);
+           });
+           </script>
+
+       <button type="submit" class="form-contact-button">Votar</button>  
+    </form>  
+  </div>  
+</center>
+  </body>
+  </html>

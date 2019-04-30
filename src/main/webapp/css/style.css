@@ -1,0 +1,50 @@
+body{
+    background-image: url(../imagens/bg_1.jpg);
+}
+
+.form-contact-button1 {
+    width: 20%;
+    font-size: 18px;
+    border-radius: 4px;
+    color: #fff;
+    height: 40px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    background: rgb(130, 189, 245);
+    border: 2px solid #ffffff;
+    transition: 1s;
+  }
+  .form-contact-button2 {
+    width: 20%;
+    font-size: 18px;
+    border-radius: 4px;
+    color: #fff;
+    height: 40px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    background: rgb(81, 154, 223);
+    border: 2px solid #ffffff;
+    transition: 1s;
+  }
+  .form-contact-button3{
+    width: 20%;
+    font-size: 18px;
+    border-radius: 4px;
+    color: #fff;
+    height: 40px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    background: rgb(60, 115, 167);
+    border: 2px solid #ffffff;
+    transition: 1s;
+  }
+
+  .titulo{
+    width: 30%;
+    color: #31d65a;
+    font-family: "Bauhaus 93 Regular", Times, serif;
+    margin-top: 50px;
+    font-size: 60px;
+    border: 5px solid #ffffff;
+  }
